@@ -1,8 +1,8 @@
 /*
  * @Author: Aschenmaker 
  * @Date: 2020-03-23 10:55:50 
- * @Last Modified by:   Aschenmaker 
- * @Last Modified time: 2020-03-23 10:55:50 
+ * @Last Modified by: Aschenmaker
+ * @Last Modified time: 2020-03-23 10:59:34
  */
 
 class ListNode {
@@ -11,5 +11,4 @@ class ListNode {
 		this.next = null;
 	}
 }
-
 module.exports = ListNode;

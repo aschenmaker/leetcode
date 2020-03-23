@@ -1,8 +1,8 @@
 /*
  * @Author: Aschenmaker 
  * @Date: 2020-03-23 10:55:45 
- * @Last Modified by:   Aschenmaker 
- * @Last Modified time: 2020-03-23 10:55:45 
+ * @Last Modified by: Aschenmaker
+ * @Last Modified time: 2020-03-23 10:59:40
  */
 
 let ListNode = require('./listNode');
@@ -28,7 +28,6 @@ head3.next = head4;
 // 		res[len++] = newHead;
 // 		newHead = newHead.next;
 // 	}
-
 // 	return len % 2 == 0 ? res[len / 2] : res[Math.round(len / 2) - 1];
 // };
 
