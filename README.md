@@ -1,3 +1,3 @@
 # Leetcode 每日斩
 
-使用 `JavaScript` 进行答题
+使用 `JavaScript & Golang` 进行答题
