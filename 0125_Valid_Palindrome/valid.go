@@ -2,17 +2,18 @@ package main
 
 import (
 	"fmt"
+	"strings"
 )
 
 func main() {
-	s := " "
+	s := "ab,c,ba"
 	ret := isPalindrome(s)
 
 	fmt.Println(ret)
 }
 
 func isPalindrome(s string) bool {
-	// s = strings.ToLower(s)
+	s = strings.ToLower(s)
 	x, y := 0, len(s)-1
 	for x < y {
 		if !(s[x] > 47 && s[x] < 58 || s[x] > 96 && s[x] < 123) {
