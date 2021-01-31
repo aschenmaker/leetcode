@@ -8,7 +8,7 @@ func main() {
 }
 
 func countBalls(lowLimit int, highLimit int) int {
-	ans := make([]int, 50)
+	ans := make([]int, 45)
 	for i := highLimit; i >= lowLimit; i-- {
 		sum := 0
 		fmt.Println(i)
